@@ -17,7 +17,7 @@ var config_data = `
       "code": "e",
       "gsCol": "event",
       "type": "event",
-      "defaultValue": "MIKE2",
+      "defaultValue": "MILIV",
       "required": "true",
       "disabled": "true"
     },
