@@ -14,7 +14,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "MILIV",
+      "defaultValue": "MICMP2",
       "required": "true",
       "disabled": "true"
     },
