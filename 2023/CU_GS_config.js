@@ -17,7 +17,7 @@ var config_data = `
       "code": "e",
       "gsCol": "event",
       "type": "event",
-      "defaultValue": "MILIV",
+      "defaultValue": "MICMP2",
       "required": "true",
       "disabled": "true"
     },
