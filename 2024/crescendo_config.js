@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023miann",
+      "defaultValue": "2023tnkn",
       "required": "true"
     },
     { "name": "Match Level",
@@ -76,6 +76,10 @@ var config_data = `
     { "name": "Speaker Scores",
       "code": "ass",
       "type": "counter"
+    },
+    { "name": "Missed speaker shots",
+      "code": "amss",
+      "type": "counter"
     }
   ],
   "teleop": [
@@ -83,8 +87,24 @@ var config_data = `
       "code": "tas",
       "type": "counter"
     },
+    { "name": "Missed speaker shots",
+      "code": "tmas",
+      "type": "counter"
+    },
     { "name": "Speaker Scores",
       "code": "tss",
+      "type": "counter"
+    },
+    { "name": "Missed speaker shots",
+      "code": "tmss",
+      "type": "counter"
+    },
+    { "name": "Fouls",
+      "code": "tf",
+      "type": "counter"
+    },
+    { "name": "Tech fouls",
+      "code": "ttf",
       "type": "counter"
     },
     { "name": "Times Amplified",
@@ -154,6 +174,7 @@ var config_data = `
       "code": "sr",
       "type": "radio",
       "choices": {
+	"0": "0 (stopped)<br>",
         "1": "1 (slow)<br>",
         "2": "2<br>",
         "3": "3<br>",
@@ -162,7 +183,7 @@ var config_data = `
       },
       "defaultValue":"3"
     },
-    { "name": "Died/Immobilized",
+    { "name": "Died/Immobilized/Connection problems",
       "code": "die",
       "type": "bool"
     },
