@@ -78,7 +78,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Missed speaker shots",
-      "code": "amss",
+      "code": "ams",
       "type": "counter"
     }
   ],
@@ -88,7 +88,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Missed speaker shots",
-      "code": "tmas",
+      "code": "tms",
       "type": "counter"
     },
     { "name": "Speaker Scores",
@@ -96,7 +96,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Missed speaker shots",
-      "code": "tmss",
+      "code": "tms",
       "type": "counter"
     },
     { "name": "Fouls",
