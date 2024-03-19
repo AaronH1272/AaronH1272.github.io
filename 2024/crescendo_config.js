@@ -183,7 +183,7 @@ var config_data = `
       },
       "defaultValue":"3"
     },
-    { "name": "Died/Immobilized/Connection problems",
+    { "name": "Died/Immobilized",
       "code": "die",
       "type": "bool"
     },
