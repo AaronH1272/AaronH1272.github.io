@@ -77,7 +77,7 @@ var config_data = `
       "code": "ass",
       "type": "counter"
     },
-    { "name": "Missed speaker shots",
+    { "name": "Speaker Misses",
       "code": "ams",
       "type": "counter"
     }
@@ -87,7 +87,7 @@ var config_data = `
       "code": "tas",
       "type": "counter"
     },
-    { "name": "Missed speaker shots",
+    { "name": "Amp Misses",
       "code": "tms",
       "type": "counter"
     },
@@ -95,7 +95,7 @@ var config_data = `
       "code": "tss",
       "type": "counter"
     },
-    { "name": "Missed speaker shots",
+    { "name": "Speaker Misses",
       "code": "tms",
       "type": "counter"
     },
@@ -103,7 +103,7 @@ var config_data = `
       "code": "tf",
       "type": "counter"
     },
-    { "name": "Tech fouls",
+    { "name": "Tech Fouls",
       "code": "ttf",
       "type": "counter"
     },
