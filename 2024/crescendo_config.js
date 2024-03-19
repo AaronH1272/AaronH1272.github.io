@@ -89,7 +89,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Amp Misses",
-      "code": "tms",
+      "code": "tma",
       "type": "counter"
     },
     { "name": "Speaker Scores",
