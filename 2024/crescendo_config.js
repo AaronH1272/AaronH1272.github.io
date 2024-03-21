@@ -71,7 +71,11 @@ var config_data = `
       "type": "bool"
     },
     { "name": "Amp Scores",
-      "code": "aas",
+      "code": "ama",
+      "type": "counter"
+    },
+    { "name": "Amp Misses",
+      "code": "ams",
       "type": "counter"
     },
     { "name": "Speaker Scores",
@@ -122,6 +126,10 @@ var config_data = `
         "x": "Not Attempted"
       },
       "defaultValue": "x"
+    },
+    { "name": "Scored in opp amp",
+      "code": "soa",
+      "type": "bool",
     }
   ],
   "endgame": [
@@ -184,7 +192,7 @@ var config_data = `
       },
       "defaultValue":"3"
     },
-    { "name": "Died/Immobilized",
+    { "name": "Connection problems",
       "code": "die",
       "type": "bool"
     },
