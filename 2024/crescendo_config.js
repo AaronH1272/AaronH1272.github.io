@@ -83,7 +83,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Speaker Misses",
-      "code": "ams",
+      "code": "asm",
       "type": "counter"
     }
   ],
