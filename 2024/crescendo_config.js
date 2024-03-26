@@ -129,7 +129,7 @@ var config_data = `
     },
     { "name": "Scored in opp amp",
       "code": "soa",
-      "type": "bool",
+      "type": "bool"
     }
   ],
   "endgame": [
