@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024mitr2",
+      "defaultValue": "2024miann",
       "required": "true"
     },
     { "name": "Match Level",
